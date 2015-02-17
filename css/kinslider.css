@@ -1,0 +1,52 @@
+      .slider{
+        float:left;
+        height:auto;
+        display:none;
+        
+      }
+      
+      .wrapper_slider{
+        border:1px solid #444444;
+        overflow:hidden;
+      }
+      
+      
+      ul.list_slider{
+        position:relative;
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        
+      }
+      
+       ul.list_slider li{
+         margin:0;
+         padding:0;
+      }
+
+      ul.list_slider li img{
+         position:absolute;
+         margin:0;
+         padding:0;
+      }
+      
+      .nav{
+       
+        border:1px solid black;
+        /*background:#EEEEEE;*/
+        background:#222222;
+        padding-top:9px;
+        padding-bottom:5px;
+        text-align:center;
+      }
+      
+      .nav_in{
+    
+        margin:0 auto;
+        text-align:center;
+                
+      }
+      
+      .left:hover, .stop:hover, .play:hover, .right:hover{
+        cursor:pointer;
+      }
